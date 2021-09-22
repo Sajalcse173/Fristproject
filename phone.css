@@ -1,0 +1,172 @@
+/* navbar start */
+#navbar{
+    flex-direction: column;
+    padding-bottom: 14px;
+}
+
+#navbar ul{
+    flex-direction: column;
+   
+    
+}
+#navbar ul li {
+    justify-content: center;
+   
+}
+#navbar ul li a {
+    color: white;
+    display: inline-block;
+    padding: 0px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 14px;
+}
+
+/* navbar end */
+/* ......................... */
+
+/* home start */
+#Home{
+    flex-direction: column;
+    overflow: hidden;
+    height: 224px;
+    padding: 5px 50px;
+    
+}
+.btn{
+    padding:2px 9px;
+    margin: 6px;
+    border: 1px solid rgb(216, 104, 13);
+    border-radius: 12px;
+    background: rgb(184, 64, 64);
+    color: white;
+    font-size: 8px;
+    font-family: 'Baloo Bhai 2', cursive;
+    transition: all 1.5s ease-out;
+}
+#Home::before{
+    height: 390px;;
+
+}
+#Home h2{
+    font-size: 20px;
+    color: rgb(224, 125, 54);
+    text-align: center;
+}
+#Home p{
+    font-size: 14px;
+    color: rgb(224, 125, 54);
+    text-align: center;
+}
+
+
+
+/* home end */
+/* ....................................... */
+
+/* services start */
+
+#Services-container #services{
+flex-direction: column;
+
+}
+#Services-container #services .box{
+    margin-bottom: 20px;
+
+}
+#Services-container #services .box img{
+    width: 65px;
+    height: 65px;
+}
+#services .box p{
+    font-size: 10px;
+}
+
+/* services end */
+
+/* ......................... */
+
+
+/* client start  */
+
+#clients .box{
+    height: 150px;
+    flex-wrap: wrap;
+}
+
+#clients .box img{
+    margin: 10px 20px;
+    height: 50px;
+    width: 50px;
+}
+
+/* client end  */
+
+/* ......................................... */
+
+/* contact start  */
+#contract{
+
+}
+.formclass2{
+    margin-left: 20px;
+}
+.btn {
+    background: rgb(21, 221, 138);
+    padding:  6px 10px;
+    border: 1px solid brown;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: rgb(241, 237, 237);
+    height: 25px;
+    width: 75px;
+    letter-spacing: 2px;
+}
+
+
+
+.socialmedia a {
+    background-color: #f5f6fa;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 64px;
+    box-shadow: 1px 4px 2px 2px #4a4b4d;
+    margin: 7px;
+}
+.socialmedia{
+    height: 125px;
+}
+
+.contrackBox form {
+    width: 50%;
+}
+
+
+/* contact end  */
+
+
+/* footer */
+
+footer{
+    background: black;
+    color: white;
+    font: bold;
+    padding: 40px,20px;
+    font-size: 8px;
+}
+
+/* utility class */
+.h-primary {
+    padding: 10px;
+    color: black;
+    font-size: 2.0rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.h-secondary{
+    padding: 15px 0px;
+    font-size: 14px;
+}
